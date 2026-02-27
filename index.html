@@ -3,75 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Workshop CSS Básico</title>
+    <title>Site do Batman</title>
   </head>
-  <body>
-    <header>
-      <h1>Workshop CSS Básico</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-        </ul>
+  <body id="topo">
+    <div class="container" id="pagina">   
+    <header class="box" id="cabecalho">
+      <div class="headre-interno">
+<h1 class="titulo">Site do Batman</h1>
+<p class="subtitulo">
+Gotham Cite: <strong>vigilância</strong>, <em> estratégia</em> e tecnologia.
+      </p>
+    </div>  
+      </header>
+      <nav class="box" id="menu">
+<ul class="nav">
+<li><a class="nav-link" href="#apresentacao">Quem é?</a></li>
+<li><a class="nav-link" href="#galeria">Galeria?</a></li>
+<li><a class="nav-link" href="#rodape">Rodapé</a></li>
+</ul>
       </nav>
-    </header>
-    <main>
-      <section>
-        <h2>Introdução</h2>
-        <p>
-          Este é um exemplo de página estruturada com
-          <strong> HTML semântico</strong> para aolicar estilos CSS. Você também
-          pode usar <em> ênfase</em> no texto.
-        </p>
-      </section>
-      <section>
-        <h2>Lista de tópicos</h2>
+      <main id="conteudo">
+        <section class="box" id="apresentacao">
+          <h2> Quem é o Batman?</h2>
+          <p>
+            Batman (Bruce Wayne) é um personagem da DC Comics e atua como Justiceiro (sem ninguém ter pedido iddo a ele) de Gotham. Ele não tem superpoderes:sua força está em <strong>treinamento</strong>, <em>tecnologia</em> e riqueza(muita riqueza).
+          </p>
+          <p>
+Em várias historias,Gotham representa problemas sociais:
 
-        <ul>
-          <li>Estrutura básica</li>
-          <li>Navegação</li>
-          <li>Imagens</li>
-          <li>Tabelas</li>
-        </ul>
-      </section>
-      <section>
-        <h2>imagem</h2>
-        <img src="https:/picsum.photos/800;400"alt="imagem de exemplo">
-      </section>
+          </p>
+        </section>
+      </main>
+    </div>
 
-      <section>
-        <h2>Tabela de conteudos</h2>
 
-        <table>
-             <thead>
-                <tr>
-                    <th>Recurso</th>
-                    <th>Descrição</th>
-                </tr>
-             </thead>
-             <tbody>
-<tr>
-    <td>Header</td>
-    <td>Parte superior da pagina</td>
-</tr>
-<tr>
-    <td>Main</td>
-    <td>conteudo principal</td>
-</tr>
-<tr>
-    <td>Footer</td>
-    <td>Rodapé</td>
-</tr>
-             </tbody>
-             <tfoot>
-<tr>
-    <td colspan="2">Exemplo de estrutura organizada.</td>
-</tr>
-             </tfoot>
-        </table>
-      </section>
-    </main>
-    <footer>
-        <P> 2026 - Projeto educacional de HTML  e CSS</P>
-    </footer>
   </body>
 </html>
