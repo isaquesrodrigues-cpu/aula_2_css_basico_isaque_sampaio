@@ -4,38 +4,83 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Site do Batman</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body{
+        box-sizing: content-box;
+      }
+    </style>
   </head>
   <body id="topo">
-    <div class="container" id="pagina">   
-    <header class="box" id="cabecalho">
-      <div class="headre-interno">
-<h1 class="titulo">Site do Batman</h1>
-<p class="subtitulo">
-Gotham Cite: <strong>vigilância</strong>, <em> estratégia</em> e tecnologia.
-      </p>
-    </div>  
+    <div class="container" id="pagina">
+      <header class="box" id="cabecalho">
+        <div class="headre-interno">
+          <h1 class="titulo">Site do Batman</h1>
+          <p class="subtitulo">
+            Gotham Cite: <strong>vigilância</strong>, <em> estratégia</em> e
+            tecnologia.
+          </p>
+        </div>
       </header>
       <nav class="box" id="menu">
-<ul class="nav">
-<li><a class="nav-link" href="#apresentacao">Quem é?</a></li>
-<li><a class="nav-link" href="#galeria">Galeria?</a></li>
-<li><a class="nav-link" href="#rodape">Rodapé</a></li>
-</ul>
+        <ul class="nav">
+          <li><a class="nav-link" href="#apresentacao">Quem é?</a></li>
+          <li><a class="nav-link" href="#galeria">Galeria?</a></li>
+          <li><a class="nav-link" href="#rodape">Rodapé</a></li>
+        </ul>
       </nav>
       <main id="conteudo">
         <section class="box" id="apresentacao">
-          <h2> Quem é o Batman?</h2>
+          <h2>Quem é o Batman?</h2>
           <p>
-            Batman (Bruce Wayne) é um personagem da DC Comics e atua como Justiceiro (sem ninguém ter pedido iddo a ele) de Gotham. Ele não tem superpoderes:sua força está em <strong>treinamento</strong>, <em>tecnologia</em> e riqueza(muita riqueza).
+            Batman (Bruce Wayne) é um personagem da DC Comics e atua como
+            Justiceiro (sem ninguém ter pedido iddo a ele) de Gotham. Ele não
+            tem superpoderes:sua força está em <strong>treinamento</strong>,
+            <em>tecnologia</em> e riqueza(muita riqueza).
           </p>
           <p>
-Em várias historias,Gotham representa problemas sociais:
-
+            Em várias historias,Gotham representa problemas sociais:
+            desigualdade, corrupção e violência urbana. Alguns quadrinhos usam o
+            Batman como forma de <strong>crítica social</strong>,mostrando como
+            falhas nas instituições,interesses econômicos e autoritarismo afetam
+            principalmente quem tem menos direitos e oportunidades.
           </p>
         </section>
+        <section class="box" id="galeria">
+          <h2>Galeria</h2>
+          <div class="gallery" id="galeria-imagens">
+            <img
+              class="bat-img"
+              src="batman.jfif"
+              alt="batman raivoso."
+              width="220"
+              height="120"
+            />
+            <img
+              class="bat-img"
+              src="batman 2.jfif"
+              alt="batman raivoso."
+              width="220"
+              height="120"
+            />
+            <img
+              class="bat-img"
+              src="batman 3.jfif"
+              alt="batman raivoso."
+              width="220"
+              height="120"
+            />
+          </div>
+        </section>
       </main>
+      <footer class="box" id=" rodape">
+        <p>
+          <a class="link" href="#topo">topo</a>
+        </p>
+        <p>Exemplo de website para treino de HTML e CSS.</p>
+      </footer>
     </div>
-
-
   </body>
 </html>
